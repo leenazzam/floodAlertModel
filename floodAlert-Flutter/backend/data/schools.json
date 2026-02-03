@@ -1,0 +1,128 @@
+{
+  "city": "Nablus",
+  "version": "1.0",
+  "generated_at": "2026-02-01T03:10:00Z",
+  "schools": [
+    {
+      "id": "sch_rafidia_girls",
+      "name": "مدرسة رفيديا الثانوية للبنات",
+      "lat": 32.2241748,
+      "lng": 35.2338782,
+      "street": "Rafedya",
+      "osm_type": "node",
+      "osm_id": null,
+
+      "nearest_street_osm_id": 37165021,
+      "nearest_street_name_ar": "شارع رفيديا",
+      "risk": 0.0
+    },
+    {
+  "id": "sch_cambridge_nablus",
+  "name": "مدرسة كامبرج",
+  "lat": 32.228562,
+  "lng": 35.247687,
+  "street": "شارع يافا",
+  "osm_type": "node",
+  "osm_id": null,
+
+  "nearest_street_osm_id": 654001111,
+  "nearest_street_name_ar": "شارع يافا",
+  "risk": 0.0
+},
+
+    {
+      "id": "sch_kamal_junblat_girls",
+      "name": "مدرسة كمال جنبلاط الثانوية للبنات",
+      "lat": 32.2243517,
+      "lng": 35.2340179,
+      "street": "Rafedya",
+      "osm_type": "node",
+      "osm_id": null,
+
+      "nearest_street_osm_id": 37165021,
+      "nearest_street_name_ar": "شارع رفيديا",
+      "risk": 0.0
+    },
+    {
+      "id": "sch_fadwa_tukan_girls",
+      "name": "مدرسة فدوى طوقان للبنات",
+      "lat": 32.2253664,
+      "lng": 35.2335012,
+      "street": "Rafedya",
+      "osm_type": "node",
+      "osm_id": null,
+
+      "nearest_street_osm_id": 37165021,
+      "nearest_street_name_ar": "شارع رفيديا",
+      "risk": 0.0
+    },
+
+    {
+  "id": "sch_hajeh_rashda_girls",
+  "name": "مدرسة الحاجة رشدة الثانوية للبنات",
+  "lat": 32.2313251,
+  "lng": 35.2519634,
+  "street": "شارع حيفا",
+  "osm_type": "node",
+  "osm_id": 432126393,
+  "nearest_street_osm_id": 830929022,
+  "nearest_street_name_ar": "شارع حيفا",
+  "risk": 0.0
+}
+,
+    {
+  "id": "sch_saad_sail_boys",
+  "name": "مدرسة الشهيد سعد صايل الأساسية للبنين",
+  "lat": 32.2316256,
+  "lng": 35.25384,
+  "street": "شارع حيفا",
+  "osm_type": "node",
+  "osm_id": 432076919,
+  "nearest_street_osm_id": 830929022,
+  "nearest_street_name_ar": "شارع حيفا",
+  "risk": 0.0
+}
+,{
+  "id": "sch_abd_alhadi_boys",
+  "name": "مدرسة عبد الهادي الأساسية للبنين",
+  "lat": 32.2320862,
+  "lng": 35.2412294,
+  "street": "شارع حيفا",
+  "osm_type": "node",
+  "osm_id": 5863024785,
+  "nearest_street_osm_id": 830929022,
+  "nearest_street_name_ar": "شارع حيفا",
+  "risk": 0.0
+}
+,
+
+   
+
+    {
+      "id": "poi_new_tree",
+      "name": "New Tree",
+      "lat": 32.2259207,
+      "lng": 35.2183901,
+      "street": "شارع الجنيد",
+      "osm_type": "node",
+      "osm_id": 432038461,
+
+      "nearest_street_osm_id": 783329305,
+      "nearest_street_name_ar": "شارع الجنيد",
+      "risk": 0.0
+    },
+    {
+      "id": "poi_junid",
+      "name": "Junid",
+      "lat": 32.2251911,
+      "lng": 35.2194872,
+      "street": "شارع الجنيد",
+      "osm_type": "node",
+      "osm_id": 432136469,
+
+      "nearest_street_osm_id": 783329305,
+      "nearest_street_name_ar": "شارع الجنيد",
+      "risk": 0.0
+    }
+  ]
+}

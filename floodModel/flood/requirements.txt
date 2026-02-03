@@ -1,0 +1,12 @@
+openmeteo-requests
+pandas
+retry-requests
+osmnx
+matplotlib
+rasterio
+geopandas
+xgboost
+scikit-learn
+shapely
+fastapi
+uvicorn

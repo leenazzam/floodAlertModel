@@ -5,7 +5,7 @@ import json, os
 
 app = Flask(__name__)
 CORS(app)
-Compress(app)   # ✅ يفعّل gzip تلقائياً
+Compress(app)
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 
@@ -20,12 +20,11 @@ def get_streets():
 
 @app.get("/api/schools")
 def get_schools():
-    schools_data = read_json("schools.json")     # ممكن dict أو list
-    streets_data = read_json("streets.json")     # dict فيه streets
+    schools_data = read_json("schools.json")   
+    streets_data = read_json("streets.json")   
 
     streets = streets_data.get("streets", [])
 
-    # خريطة: osm_id -> risk
     street_risk = {}
     for s in streets:
         oid = s.get("osm_id")
@@ -33,7 +32,6 @@ def get_schools():
             continue
         street_risk[int(oid)] = float(s.get("risk", 0.0))
 
-    # طلّعي قائمة المدارس بغض النظر عن شكل الملف
     if isinstance(schools_data, dict):
         schools = schools_data.get("schools", [])
     else:
@@ -47,10 +45,9 @@ def get_schools():
             r = street_risk.get(int(nsid), 0.0)
 
         item = dict(sch)
-        item["risk"] = r  # ✅ المدرسة = ريسك أقرب شارع
+        item["risk"] = r 
         out.append(item)
 
-    # رجّعي بنفس الهيكل اللي ملفك كاتبه
     if isinstance(schools_data, dict):
         result = dict(schools_data)
         result["schools"] = out
